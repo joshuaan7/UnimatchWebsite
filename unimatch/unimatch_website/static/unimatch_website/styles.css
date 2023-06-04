@@ -1,0 +1,40 @@
+h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding-top:1em;
+
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family:'Roboto';
+}
+
+h4 {
+    padding-bottom: 2em;
+    font-family:'Roboto';
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    font-family:'Roboto';
+}
+
+
+.container-search {
+
+    background-color: #FDFDFD;
+    margin-top:3em;
+    margin-left:20em;
+    margin-right:20em;
+    border-radius:3em;
+    padding: 3em;
+    font-family:'Roboto';
+}
+
+.btn-primary {
+}
