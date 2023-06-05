@@ -15,26 +15,89 @@ h2 {
 
 h4 {
     padding-bottom: 2em;
-    font-family:'Roboto';
+    font-family: 'Roboto';
     text-align: center;
 }
 
 p {
     font-size: 1em;
-    font-family:'Roboto';
+    font-family: 'Roboto';
 }
 
 
 .container-search {
 
     background-color: #FDFDFD;
-    margin-top:3em;
-    margin-left:20em;
-    margin-right:20em;
+    margin-top: 3em;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 3em;
     border-radius:3em;
     padding: 3em;
-    font-family:'Roboto';
+    font-family: 'Roboto';
 }
 
-.btn-primary {
+.btn.btn-secondary.dropdown-toggle {
+    color: grey;
+    border-radius: 1em;
+    background-color: white;
+    text-align: justify;
+    font-size: .8em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+
+}
+
+/* Submit Button Index Page */
+.btn.btn-primary {
+    font-family: 'Roboto';
+    background-color: #B2B5E0;
+    border-radius: 3em;
+    padding-right: 2em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    border-color: #B2B5E0;
+
+}
+
+.btn.btn-primary:focus {
+    background-color: white;
+    border-color: #B2B5E0;
+    border-width: thin;
+    color: #B2B5E0;
+}
+
+.btn.btn-primary:hover {
+    background-color: white;
+    border-color: #B2B5E0;
+    border-width: thin;
+    color: #B2B5E0;
+}
+
+.btn.btn-primary:active {
+    background-color: #B2B5E0;
+    color: white;
+}
+
+/* Dropdown menu background color*/
+.dropdown-menu > a {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+
+}
+
+.dropdown-menu > a:active {
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    background-color: #565D63;
+
+}
+
+.form-control {
+    border-radius: 1em;
+    background-color: #222222;
+    color: black;
+
 }
