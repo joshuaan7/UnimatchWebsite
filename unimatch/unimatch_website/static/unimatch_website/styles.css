@@ -24,17 +24,17 @@ p {
     font-family: 'Roboto';
 }
 
-
 .container-search {
 
     background-color: #FDFDFD;
     margin-top: 3em;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 3em;
     border-radius:3em;
     padding: 3em;
     font-family: 'Roboto';
+    overflow: auto;
 }
 
 .btn.btn-secondary.dropdown-toggle {
@@ -55,9 +55,10 @@ p {
     border-radius: 3em;
     padding-right: 2em;
     padding-left: 2em;
+    margin-top:2em;
+    text-align:center;
     font-size: 1.2em;
     border-color: #B2B5E0;
-
 }
 
 .btn.btn-primary:focus {
@@ -80,11 +81,17 @@ p {
 }
 
 /* Dropdown menu background color*/
+.dropdown-menu {
+    border-radius: 1em;
+    color: red;
+}
+
+/* Dropdown menu background color*/
 .dropdown-menu > a {
     color: black;
     font-size: 1.2em;
     font-family: 'Roboto';
-
+    border-radius: 1em;
 }
 
 .dropdown-menu > a:active {
@@ -95,9 +102,10 @@ p {
 
 }
 
-.form-control {
-    border-radius: 1em;
-    background-color: #222222;
-    color: black;
+/* Clicking into the text area to type */
+
+
+textarea:focus, textarea:hover, textarea:active {
+    border-color: black;
 
 }
