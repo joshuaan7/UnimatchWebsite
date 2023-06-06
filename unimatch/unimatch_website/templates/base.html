@@ -20,7 +20,6 @@
   <!-- {% include 'navbar.html' %} -->
   <div class="container" style="background-color: #B2B5E0; font-family:'Roboto'">
         {% block content %}
-          <h1>Hello, world!</h1>
         {% endblock %}
   </div>
 
@@ -129,8 +128,8 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkMajor">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="{% url 'index' %}">Action</a>
+                    <a class="dropdown-item" href="{% url 'results' %}">Another action</a>
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
 
@@ -154,7 +153,9 @@
       </div>
 
       <div class="text-center">
-        <input class="btn btn-primary shadow-none" type="submit" value="Submit">
+          <a href="{% url 'results' %}">
+            <input class="btn btn-primary shadow-none" type="submit" value="Submit">
+          </a>
       </div>
 
   </div>
