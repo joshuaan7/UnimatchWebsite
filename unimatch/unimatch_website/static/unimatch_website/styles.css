@@ -1,22 +1,33 @@
 h1 {
     color: white;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
-    padding-top:1em;
-
+    padding-top: 1em;
 }
 
 h2 {
     color: white;
-    font-size: 2em;
+    font-size: 0.5em;
     text-align: center;
     font-family:'Roboto';
 }
 
 h4 {
-    padding-bottom: 2em;
+    padding-bottom: 0.7em;
     font-family: 'Roboto';
     text-align: center;
+    font-size: 1.2em;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+h6 {
+    text-align: center;
+    padding: 1em;
+    color: white;
 }
 
 p {
@@ -27,11 +38,11 @@ p {
 .container-search {
 
     background-color: #FDFDFD;
-    margin-top: 3em;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 3em;
-    border-radius:3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 12%;
+    margin-right: 12%;
+    border-radius: 1em;
     padding: 3em;
     font-family: 'Roboto';
     overflow: auto;
@@ -39,7 +50,7 @@ p {
 
 .btn.btn-secondary.dropdown-toggle {
     color: grey;
-    border-radius: 1em;
+    border-radius: .5em;
     background-color: white;
     text-align: justify;
     font-size: .8em;
@@ -52,10 +63,10 @@ p {
 .btn.btn-primary {
     font-family: 'Roboto';
     background-color: #B2B5E0;
-    border-radius: 3em;
+    border-radius: 0.5em;
     padding-right: 2em;
     padding-left: 2em;
-    margin-top:2em;
+    margin-top: 1.5em;
     text-align:center;
     font-size: 1.2em;
     border-color: #B2B5E0;
@@ -91,7 +102,7 @@ p {
     color: black;
     font-size: 1.2em;
     font-family: 'Roboto';
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 
 .dropdown-menu > a:active {
@@ -103,9 +114,17 @@ p {
 }
 
 /* Clicking into the text area to type */
-
-
 textarea:focus, textarea:hover, textarea:active {
     border-color: black;
+}
 
+.form-group {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0.5em;
+}
+
+card {
+   width: 18rem;
+   border-radius: 1em;
 }

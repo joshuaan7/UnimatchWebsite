@@ -30,6 +30,7 @@
           I would like to pursue a
 
             <span class="inline-dropdown">
+
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLinkDegree" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Degree
                 </a>
@@ -116,11 +117,7 @@
 
           </span>
 
-          .
-      </h4>
-
-      <h4>
-          I am interested in
+          . I am interested in
 
           <span class="inline-dropdown">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLinkMajor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -128,9 +125,9 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkMajor">
-                    <a class="dropdown-item" href="{% url 'index' %}">Action</a>
-                    <a class="dropdown-item" href="{% url 'results' %}">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="{% url 'index' %}">Business</a>
+                    <a class="dropdown-item" href="{% url 'results' %}">Data Science</a>
+                    <a class="dropdown-item" href="#">Biology</a>
                 </div>
 
           </span>
@@ -139,12 +136,12 @@
 
       <br>
 
-      <h4>
+      <h5 style="padding-bottom: 1em">
         <b>Or enter a more specific phrase:</b>
-      </h4>
+      </h5>
 
       <div class="form-group">
-          <textarea class="form-control shadow-none" id="phraseFormControlTextarea1" placeholder="&ldquo;Social Justice with emphasis on Black History&rdquo;" rows="10"></textarea>
+          <textarea class="form-control shadow-none" id="phraseFormControlTextarea1" placeholder="&ldquo;Social Justice with emphasis on Black History&rdquo;" rows="5"></textarea>
           <style>
               #phraseFormControlTextarea1:focus {
                  border-color: black;
